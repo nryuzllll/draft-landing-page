@@ -85,6 +85,7 @@ button.sign-up-button {
     display: flex;
     flex-direction: column;
     padding: 0 70px;
+    margin-bottom: 30px;
 }
 
 h2,
@@ -126,6 +127,7 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .quote {
@@ -135,12 +137,43 @@ h3 {
     justify-content: center;
     text-align: center;
     padding: 0 200px;
-
 }
 
 .quote-author {
     display: flex;
     padding: 0 100px;
-
 }
 
+.sign-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.sign-box {
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 65px;
+}
+
+.box-text h3 {
+    margin: 30px 0 0 0;
+    text-align: left;
+}
+
+.box-text p {
+    margin: 10px 0 30px 0;
+}
+
+.sign-box .sign-up-button {
+    margin-right: 65px;
+}
