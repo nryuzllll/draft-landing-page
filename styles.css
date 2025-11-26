@@ -67,6 +67,33 @@ h1 {
 
 .gambling-poster {
     margin: 60px;
-    
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.info{
+    /*max-width: 130px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info img {
+    width: 50px;
+
 }
 
