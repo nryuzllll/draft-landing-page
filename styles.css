@@ -114,7 +114,7 @@ h3 {
 }
 
 .info{
-    /*max-width: 130px;*/
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +131,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px
+    padding: 70px
 }
 
 .quote {
